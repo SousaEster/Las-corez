@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Cores</title>
+    <link rel="stylesheet" href="LasCores.css">
+</head>
+<body class="content">
+  
+    <main>
+    <h1>Las Cores</h1>
+    <h3 id="i">Menu:</h3>
+    <p>Tintas</p>
+    <p>Pincéis</p>
+    <p>Artesanatos</p>
+    <h3>Quem somos:</h3>
+    <p>A papelaria Las Cores foi fundade em 1999 na cidade de Florianopólis por José Inácio, inspirado por sua filha Ana Luiza, que amava pintar.</p>
+    <p>Escolha a cor de tinta desejada, esta ação irá mudar o fundo da página!</p>
+    <button onclick="color1()">🔵</button>
+    <button onclick="color2()">🔴</button>
+    <button onclick="color3()">🟡</button>
+    <button onclick="color4()">🟢</button>
+    <button onclick="normal()">Voltar</button>
+</main>
+<img src="semfundo.png" alt="">
+    <script>
+        function color1(){
+          document.querySelector("body").style.backgroundColor="blue"   
+        }
+        function color2(){
+          document.querySelector("body").style.backgroundColor="red"   
+        }
+        function color3(){
+          document.querySelector("body").style.backgroundColor="yellow"   
+        }
+        function color4(){
+          document.querySelector("body").style.backgroundColor="lightgreen"   
+        }
+        function normal(){
+          document.querySelector("body").style.backgroundColor="aliceblue"   
+        }
+        
+    </script>
+<footer>
+  <p > Feito por:Ester Iasmim e Margarida Ellen </p>     
+ <P >E-mail: <a href="mailto:ester.gomes8@aluno.ce.gov.br "  >ester.gomes8@aluno.ce.gov.br</a> </P>
+ <P >E-mail: <a href="mailto:margarida.gomes@aluno.ce.gov.br "  >margarida.gomes@aluno.ce.gov.br</a> </P>
+ <a href="https:www.google.com"> Clique aqui</a>
+ </footer>
+</body>
+</html>
