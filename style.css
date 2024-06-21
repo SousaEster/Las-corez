@@ -27,7 +27,7 @@ justify-items: center;
     body{margin:2em 2em;
         display: block;
     }
-    img{width: 25vw;
+    img{width: 50vw;
     text-align: center;}
 }
 @media screen and (max-width:600px){
